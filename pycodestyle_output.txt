@@ -1,0 +1,16 @@
+codio@flowerpioneer-dublinwatch:~/workspace$ pycodestyle code_with_lint.pycode_with_lint.py:9:1: E302 expected 2 blank lines, found 1
+code_with_lint.py:14:15: E225 missing whitespace around operator
+code_with_lint.py:19:1: E302 expected 2 blank lines, found 1
+code_with_lint.py:20:80: E501 line too long (80 > 79 characters)
+code_with_lint.py:25:10: E711 comparison to None should be 'if cond is not None:'
+code_with_lint.py:27:25: E703 statement ends with a semicolon
+code_with_lint.py:31:24: E201 whitespace after '('
+code_with_lint.py:35:1: E302 expected 2 blank lines, found 1
+code_with_lint.py:37:58: E251 unexpected spaces around keyword / parameter equals
+code_with_lint.py:37:60: E251 unexpected spaces around keyword / parameter equals
+code_with_lint.py:38:28: E221 multiple spaces before operator
+code_with_lint.py:38:31: E222 multiple spaces after operator
+code_with_lint.py:39:22: E221 multiple spaces before operator
+code_with_lint.py:39:31: E222 multiple spaces after operator
+code_with_lint.py:40:80: E501 line too long (83 > 79 characters)
+code_with_lint.py:44:15: W292 no newline at end of file

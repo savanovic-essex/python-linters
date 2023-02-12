@@ -1,0 +1,9 @@
+codio@flowerpioneer-dublinwatch:~/workspace$ pyflakes code_with_lint.py
+code_with_lint.py:1:1 'io' imported but unused
+code_with_lint.py:2:1 'from math import *' used; unable to detect undefined names
+code_with_lint.py:13:5 local variable 'some_global_var' is assigned to but never used
+code_with_lint.py:40:44 'pi' may be undefined, or defined from star imports: math
+code_with_lint.py:40:9 local variable 'list_comprehension' is assigned to but never used
+code_with_lint.py:41:16 local variable 'time' defined in enclosing scope on line 5 referenced before assignment
+code_with_lint.py:41:9 local variable 'time' is assigned to but never used
+code_with_lint.py:43:9 local variable 'date_and_time' is assigned to but never used
